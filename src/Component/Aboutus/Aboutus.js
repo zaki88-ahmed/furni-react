@@ -4,13 +4,12 @@ import React, { Component }  from 'react';
 import Banner from './Banner';
 import Product from './Product';
 import Choose from './Choose';
-import Help from './Help';
-import Popular from './Popular';
 import Testimonial from './Testimonial';
 import Blog from './Blog';
 import Footer from './Footer';
+import Team from './Team';
 
-class Index extends Component{
+class Aboutus extends Component{
 	render(){
   
 		return <div>
@@ -18,8 +17,7 @@ class Index extends Component{
 		  <Banner/>
 		  <Product/>
 		  <Choose/>
-		  <Help/>
-		  <Popular/>
+		  <Team/>
 		  <Testimonial/>
 		  <Blog/>
 		  <Footer/>
@@ -29,4 +27,4 @@ class Index extends Component{
 	}
   }
 
-export default Index;
+export default Aboutus;

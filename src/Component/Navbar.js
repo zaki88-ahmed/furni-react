@@ -1,7 +1,6 @@
 import React, { Component }  from 'react';
-// import LogoImage from '../Images/logo.png';
-import userImage from '../../Images/user.svg';
-import cart from '../../Images/cart.svg';
+import userImage from '../Images/user.svg';
+import cart from '../Images/cart.svg';
 
 class Navbar extends Component{
   render(){
