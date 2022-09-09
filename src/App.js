@@ -6,6 +6,9 @@ import Shop from './Component/Shop/Shop';
 import Navbar from './Component/Navbar';
 import Aboutus from './Component/Aboutus/Aboutus';
 import Cart from './Component/Cart/Cart';
+import Contact from './Component/Contact/Contact';
+import Services from './Component/Services/Services';
+import Blog from './Component/Blog/Blog';
 
 class App extends Component{
   render(){
@@ -15,7 +18,10 @@ class App extends Component{
         {/* <Index/> */}
         {/* <Shop/> */}
         {/* <Aboutus/> */}
-        <Cart/>
+        {/* <Cart/> */}
+        {/* <Contact/> */}
+        {/* <Services/> */}
+        <Blog/>
       </div>
 
   }
